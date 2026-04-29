@@ -39,7 +39,7 @@ Caja = kc.CTkFrame(
 Caja.grid(row=0, column=0)
 Caja.grid_propagate(False)
 Caja.grid_columnconfigure(0, weight=1)
-Caja.grid_rowconfigure((0, 1, 2), weight=1) # Añadí una fila más para equilibrio
+Caja.grid_rowconfigure((0, 1, 2), weight=1)
 
 Dado = kc.CTkLabel(
     Caja, 
